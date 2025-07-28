@@ -11,6 +11,13 @@ $box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
 /* Max width 767px
 <<<<=====================================================================>>>>*/ 
 @media only screen and (max-width: 767px) {
+    .navbar-nav {
+                flex-direction: column; /* چینش عمودی برای موبایل */
+                padding: 0; /* حذف حاشیه‌های ناوار */
+            }
+            .navbar-collapse {
+                justify-content: center; /* مرکز چینش برای محتویات */
+            }
 
     body {
         font-size: 15px;
